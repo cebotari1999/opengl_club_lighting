@@ -1,3 +1,15 @@
+# Club lighting
+
+In this project I used several types of lighting to create a club atmosphere.
+![image](https://user-images.githubusercontent.com/57103861/175044421-ca5aa89e-cdd6-420e-8b84-dd0d4652b8b4.png)
+
+
+For floor I used point light sources, placed in the center of the floor cubes. The reflectors are created with spot lights, superimposed over transparent cones.
+The illumination of the disco globe is simulated with a point light source for which the color is obtained from a texture.
+
+To see the result access the link: https://youtu.be/zR8GsfYaoJ4
+
+
 # GFX Framework
 
 ## :sparkles: Introduction
@@ -131,7 +143,7 @@ You can run the project from an IDE, as well as standalone, from anywhere on dis
 -   Linux and macOS:
     -   `./bin/Debug/GFXFramework`
 
-To run a certain lab:
+To run project:
 
 -   Go into `main.cpp`
 -   Find this line:
@@ -140,9 +152,7 @@ To run a certain lab:
     ```
 -   Replace it with whatever you want to run, for example:
     ```cpp
-    World *world = new m1::Lab1();
-    World *world = new m2::Lab1();
-    World *world = new extra::TessellationShader();
+    World *world = new m1::Tema2();
     // etc.
     ```
 
