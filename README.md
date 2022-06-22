@@ -7,6 +7,8 @@ In this project I used several types of lighting to create a club atmosphere.
 For floor I used point light sources, placed in the center of the floor cubes. The reflectors are created with spot lights, superimposed over transparent cones.
 The illumination of the disco globe is simulated with a point light source for which the color is obtained from a texture.
 
+To see the code open src/lab_m1/tema3, also in lab_m1 you can find diffrent implementation: 3D and 2D transformation, shader and vertex, textures.
+
 To see the result access the link: https://youtu.be/zR8GsfYaoJ4
 
 
